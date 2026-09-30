@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+generated/
+*.py[cod]
+
+# Local datasets and archives
+DATABASE ISL/
+Dataset of Common phrases in ISL/
+archive.zip
+
+# Generated model artifacts and training output
+models/*.keras
+models/*_metrics.json
+models/*_labels.json
+
+# Python tooling and local editor files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.vscode/
+.idea/
+*.log
